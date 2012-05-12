@@ -1,12 +1,14 @@
 {
-"name":"riaktant",
-"description":"A sample node.js application that stores syslog messages in Riak Search.",
-"version":"0.1.1",
-"keywords":["riak", "search", "syslog"],
-"dependencies":{
-  "riak-js":">=0.3.6",
-  "glossy":">=0.0.2",
-  "ejs":"",
-  "express":"2.0.0beta3"
-}
+  "name": "riaktant",
+  "description": "A sample node.js application that stores syslog messages in Riak Search.",
+  "version": "0.1.1",
+  "keywords": ["riak", "search", "syslog"],
+  "engines": { "node": ">= 0.6.12" },
+  "dependencies": {
+    "riak-js": "git://github.com/senchalabs/riak-js.git#js",
+    "glossy": ">=0.1.2",
+    "connect": "1.x",
+    "ejs": ">=0.4.2",
+    "express": ">=2.5.9"
+  }
 }
