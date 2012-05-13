@@ -1,5 +1,5 @@
 // This file is the entry point for no.de
-var web = require("./lib/web/server"),
+var web = require("./lib/web/app"),
     syslog = require("./lib/syslog/server")
 
 // Use the supplied app-server port
