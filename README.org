@@ -6,7 +6,7 @@
    Originally created by [[mailto:mathias@basho.com][Mathias Meyer]] and [[mailto:sean@basho.com][Sean Cribbs]] for the "Riak
    with node.js" Basho webinar, March 15, 2011.
 ** Install & Run
-   1) =npm bundle= (installs dependencies)
+   1) =npm install -d= (installs dependencies)
    2) Copy =config/riak.js.example= to =config/riak.js= and tweak to
       fit your setup. Make sure to have Riak Search installed and
       running already.
